@@ -46,4 +46,4 @@ if __name__ == "__main__":
 
     x = parser.parse_args()
 
-    print(x)
+    print(create_nesting_pattern(x.type, x.depth))
